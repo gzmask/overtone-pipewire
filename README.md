@@ -10,7 +10,9 @@ jack_lsp, pipewire
 
 ### pull deps to local m2
    git clone https://github.com/overtone/overtone.git
+   
    cd ./overtone
+
    clj -X:deps prep
 
 ### build newest version of overtone to local m2
